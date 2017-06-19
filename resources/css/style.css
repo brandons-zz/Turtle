@@ -31,7 +31,7 @@ a:hover {
 
 .container {
   max-width: 960px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 /* banner */
@@ -169,7 +169,14 @@ footer {
     background-position: 20%;
     height: 17rem;
     padding-top: 0rem;
-    align-content: center;
+  }
+
+  .banner-text {
+    margin-top: 9rem;
+    background-color: white;
+    left: 0rem;
+    padding: 1rem 5rem;
+    float: none;
   }
 
   .logo p {
@@ -204,28 +211,56 @@ footer {
 		display: block;
 	}
 
-  .banner-text {
-    position: relative;
-    left: 0rem;
-    margin-top: 9rem;
-    padding: 1rem 1rem 1rem 1rem;
-    background-color: white;
-  }
-
   h1 {
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
   }
 
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.77rem;
+    height: auto;
+  }
+
+  .service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:  flex-start;
+    text-align: center;
+  }
+
+  .service-item img {
+    width: 5rem;
+    height: auto;
+    padding-bottom: .5rem;
+  }
+
+  #paper img{
+    width: 3.5rem;
+    height: auto;
+  }
+
+  .service-item p {
+    margin-bottom: 1.54rem;
+  }
+
+
   .info-grid {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-top: 3.77rem;
     margin-bottom: 5rem;
   }
 
   .info-item {
+
     width: 100%;
   }
 
@@ -242,7 +277,7 @@ footer {
   }
 
   .footer {
-    margin: auto;
+    justify-content: center;
   }
 
   .footer p {
